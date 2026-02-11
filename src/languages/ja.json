@@ -1,178 +1,178 @@
 {
-    "name": "English",
-    "nativeName": "English",
-    "card": {
-        "phase": {
-            "firstQuarterMoon": "First quarter",
-            "fullMoon": "Full moon",
-            "thirdQuarterMoon": "Last quarter",
-            "newMoon": "New moon",
-            "waxingCrescentMoon": "Waxing crescent",
-            "waxingGibbousMoon": "Waxing gibbous",
-            "waningCrescentMoon": "Waning crescent",
-            "waningGibbousMoon": "Waning gibbous"
-        },
-        "illumination": "Illumination",
-        "illuminated": "Illuminated",
-        "moonRise": "Moonrise",
-        "moonSet": "Moonset",
-        "moonHigh": "Moon highest",
-        "moonAge": "Moon age",
-        "distance": "Distance",
-        "azimuth": "Azimuth",
-        "altitude": "Altitude",
-        "fullMoon": "Full moon",
-        "newMoon": "New moon",
-        "relativeTime": {
-            "days": "days",
-            "justNow": "just now",
-            "minutesAgo": "{0} minutes ago",
-            "hoursAgo": "{0} hours ago",
-            "inMinutes": "in {0} minutes",
-            "inHours": "in {0} hours"
-        },
-        "position": "Position",
-        "direction": "Direction",
-        "nextPhase": "Next phase",
-        "cardinalShort": {
-            "N": "N",
-            "NNE": "NNE",
-            "NE": "NE",
-            "ENE": "ENE",
-            "E": "E",
-            "ESE": "ESE",
-            "SE": "SE",
-            "SSE": "SSE",
-            "S": "S",
-            "SSW": "SSW",
-            "SW": "SW",
-            "WSW": "WSW",
-            "W": "W",
-            "WNW": "WNW",
-            "NW": "NW",
-            "NNW": "NNW"
-        },
-        "underHorizon": "Moon under horizon",
-        "overHorizon": "Moon over horizon",
-        "horizonTitle": "Today's Moon",
-        "currentTime": "Current time",
-        "common": {
-            "now": "Now"
-        }
-    },
-    "editor": {
-        "viewConfig": {
-            "title": "Language and view mode",
-            "description": "Set a configuration for language and background",
-            "customBackground": {
-                "title": "Background",
-                "description": "Set a configuration for custom background"
-            },
-            "theme": {
-                "title": "Theme (optional)",
-                "description": "Choose a theme for the card"
-            },
-            "layout": {
-                "title": "Layout options",
-                "description": "Modify the layout of the card"
-            }
-        },
-        "baseConfig": {
-            "title": "Latitude and Longitude",
-            "description": "Set a configuration for latitude and longitude"
-        },
-        "optionsConfig": {
-            "useDefault": "Use system",
-            "useEntity": "Use entity",
-            "useCustom": "Use custom"
-        },
-        "fontOptions": {
-            "title": "Font customization",
-            "description": "Set a configuration for font size and color",
-            "hideLabel": "Hide label",
-            "headerFontConfig": {
-                "title": "Header font",
-                "description": "Set a configuration for header font"
-            },
-            "labelFontConfig": {
-                "title": "Label font",
-                "description": "Set a configuration for label font"
-            },
-            "headerFontSize": "Header font size",
-            "headerFontColor": "Header font color",
-            "headerFontStyle": "Header font style",
-            "labelFontSize": "Label font size",
-            "labelFontColor": "Label font color",
-            "labelFontStyle": "Label font style",
-            "valueFontSize": "Value font size"
-        },
-        "graphConfig": {
-            "title": "Graph customization",
-            "description": "Set a configuration for graph",
-            "type": {
-                "title": "Graph type",
-                "description": "Select a graph type"
-            },
-            "visibility": {
-                "title": "Visibility options",
-                "description": "Hide or show specific elements"
-            },
-            "customization": {
-                "title": "Customization options",
-                "description": "Customize the graph"
-            }
-        },
-        "layoutConfig": {
-            "title": "Layout customization",
-            "description": "Modify the layout of the card",
-            "hiddenItems": {
-                "title": "Hidden items",
-                "description": "Select items to hide in data view"
-            }
-        },
-        "compactView": "Compact view",
-        "showBackground": "Show background",
-        "timeFormat": "12-hour time format",
-        "mileUnit": "Mile unit",
-        "yTicks": "Y-axis ticks",
-        "xTicks": "X-axis ticks",
-        "showTime": "Set/Rise time markers",
-        "showCurrent": "Current Moon position",
-        "showLegend": "Display legend",
-        "showHighest": "Display highest Moon position",
-        "calendarModal": "Calendar popup",
-        "hideButtons": "Hide buttons",
-        "titleHelper": {
-            "compactView": "Show a compact view",
-            "showBackground": "Show a background",
-            "timeFormat": "Set a time format (12-hour or 24-hour)",
-            "mileUnit": "Kilometer will be used if disabled",
-            "yTicks": "Show a Y-axis ticks",
-            "xTicks": "Show a X-axis ticks",
-            "showTime": "Show set/rise time markers",
-            "showCurrent": "Show current Moon position",
-            "showLegend": "Display a legend",
-            "showHighest": "Display highest Moon position",
-            "calendarModal": "Calendar will be displayed in a popup",
-            "hideButtons": "The header buttons will be hidden",
-            "useDefault": "Use system latitude and longitude",
-            "useEntity": "Use entity latitude and longitude",
-            "useCustom": "Use custom latitude and longitude",
-            "hideLabel": "Hide label in compact view"
-        },
-        "placeHolder": {
-            "latitude": "Enter latitude",
-            "longitude": "Enter longitude",
-            "customBackground": "URL or path to image",
-            "language": "Select language",
-            "moonPosition": "Select moon position on card",
-            "defaultCard": "Select default card",
-            "yTicksPosition": "Y-axis ticks position",
-            "legendPosition": "Legend position",
-            "legendAlign": "Legend align",
-            "graphType": "Graph type",
-            "compactMode": "Compact mode",
-            "themeMode": "Theme mode"
-        }
-    }
+	"name": "Japanese",
+	"nativeName": "日本語",
+	"card": {
+		"phase": {
+			"firstQuarterMoon": "上弦の月",
+			"fullMoon": "満月",
+			"thirdQuarterMoon": "下弦の月",
+			"newMoon": "新月",
+			"waxingCrescentMoon": "三日月",
+			"waxingGibbousMoon": "九夜月（満ちゆく月）",
+			"waningCrescentMoon": "明けの三日月",
+			"waningGibbousMoon": "更待月（欠けゆく月）"
+		},
+		"illumination": "輝度",
+		"illuminated": "照らされている割合",
+		"moonRise": "月の出",
+		"moonSet": "月の入り",
+		"moonHigh": "南中時刻",
+		"moonAge": "月齢",
+		"distance": "距離",
+		"azimuth": "方位角",
+		"altitude": "高度",
+		"fullMoon": "満月",
+		"newMoon": "新月",
+		"relativeTime": {
+			"days": "{0} 日",
+			"justNow": "たった今",
+			"minutesAgo": "{0} 分前",
+			"hoursAgo": "{0} 時間前",
+			"inMinutes": "{0} 分後",
+			"inHours": "{0} 時間後"
+		},
+		"position": "位置",
+		"direction": "方位",
+		"nextPhase": "次の月相",
+		"cardinalShort": {
+			"N": "北",
+			"NNE": "北北東",
+			"NE": "北東",
+			"ENE": "東北東",
+			"E": "東",
+			"ESE": "東南東",
+			"SE": "南東",
+			"SSE": "南南東",
+			"S": "南",
+			"SSW": "南南西",
+			"SW": "南西",
+			"WSW": "西南西",
+			"W": "西",
+			"WNW": "西北西",
+			"NW": "北西",
+			"NNW": "北北西"
+		},
+		"underHorizon": "地平線下",
+		"overHorizon": "地平線上",
+		"horizonTitle": "今日の月軌道",
+		"currentTime": "現在時刻",
+		"common": {
+			"now": "現在"
+		}
+	},
+	"editor": {
+		"viewConfig": {
+			"title": "表示設定",
+			"description": "言語と背景の設定",
+			"customBackground": {
+				"title": "背景",
+				"description": "カスタム背景の設定"
+			},
+			"theme": {
+				"title": "テーマ (オプション)",
+				"description": "カードのテーマを選択"
+			},
+			"layout": {
+				"title": "レイアウト",
+				"description": "カードのレイアウト変更"
+			}
+		},
+		"baseConfig": {
+			"title": "位置情報",
+			"description": "緯度と経度の設定"
+		},
+		"optionsConfig": {
+			"useDefault": "システム設定を使用",
+			"useEntity": "エンティティ設定を使用",
+			"useCustom": "カスタム設定を使用"
+		},
+		"fontOptions": {
+			"title": "フォント設定",
+			"description": "サイズと色のカスタマイズ",
+			"hideLabel": "ラベルを隠す",
+			"headerFontConfig": {
+				"title": "ヘッダーフォント",
+				"description": "ヘッダーの設定"
+			},
+			"labelFontConfig": {
+				"title": "ラベルフォント",
+				"description": "ラベルの設定"
+			},
+			"headerFontSize": "ヘッダーサイズ",
+			"headerFontColor": "ヘッダーの色",
+			"headerFontStyle": "ヘッダースタイル",
+			"labelFontSize": "ラベルサイズ",
+			"labelFontColor": "ラベルの色",
+			"labelFontStyle": "ラベルスタイル",
+			"valueFontSize": "値のサイズ"
+		},
+		"graphConfig": {
+			"title": "グラフ設定",
+			"description": "グラフの表示設定",
+			"type": {
+				"title": "種類",
+				"description": "グラフタイプを選択"
+			},
+			"visibility": {
+				"title": "表示オプション",
+				"description": "表示項目の切り替え"
+			},
+			"customization": {
+				"title": "カスタマイズ",
+				"description": "グラフの調整"
+			}
+		},
+		"layoutConfig": {
+			"title": "レイアウト設定",
+			"description": "表示・非表示の切り替え",
+			"hiddenItems": {
+				"title": "非表示にする項目",
+				"description": "表示させないデータを選択"
+			}
+		},
+		"compactView": "コンパクトビュー",
+		"showBackground": "背景を表示",
+		"timeFormat": "12時間表記",
+		"mileUnit": "マイル単位 (オフでkm)",
+		"yTicks": "Y軸目盛り",
+		"xTicks": "X軸目盛り",
+		"showTime": "月の出/入りマーカー",
+		"showCurrent": "現在の月の位置",
+		"showLegend": "凡例を表示",
+		"showHighest": "最高高度を表示",
+		"calendarModal": "カレンダー表示",
+		"hideButtons": "ヘッダーボタンを隠す",
+		"titleHelper": {
+			"compactView": "最小限の表示にします",
+			"showBackground": "背景画像を表示します",
+			"timeFormat": "12時間/24時間表記を切り替えます",
+			"mileUnit": "オフの場合はキロメートルを使用します",
+			"yTicks": "Y軸の目盛りを表示します",
+			"xTicks": "X軸の目盛りを表示します",
+			"showTime": "出/入りの位置をグラフに表示します",
+			"showCurrent": "現在の位置をグラフに表示します",
+			"showLegend": "凡例を表示します",
+			"showHighest": "最高到達点を表示します",
+			"calendarModal": "クリックでカレンダーをポップアップします",
+			"hideButtons": "上部のボタンを消します",
+			"useDefault": "システムの座標を使用します",
+			"useEntity": "エンティティの座標を使用します",
+			"useCustom": "手動で座標を入力します",
+			"hideLabel": "ラベルを隠して値を強調します"
+		},
+		"placeHolder": {
+			"latitude": "緯度を入力",
+			"longitude": "経度を入力",
+			"customBackground": "URLまたはパス",
+			"language": "言語を選択",
+			"moonPosition": "月の表示位置",
+			"defaultCard": "初期表示カード",
+			"yTicksPosition": "Y軸目盛り位置",
+			"legendPosition": "凡例の位置",
+			"legendAlign": "凡例の配置",
+			"graphType": "グラフの種類",
+			"compactMode": "コンパクトモード",
+			"themeMode": "テーマモード"
+		}
+	}
 }
