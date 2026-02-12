@@ -106,30 +106,24 @@ export class LunarMoonCalendarTooltip extends LitElement {
 .tooltip {
       display: flex;
       flex-direction: column;
-      /* 背景色をテーマのカード背景に合わせ、95%の不透明度を適用 */
-      background-color: var(--ha-card-background, var(--card-background-color, #1c1c1c));
-      /* 文字色をテーマの標準テキスト色に固定（白背景で文字が消えるのを防ぐ） */
-      color: var(--primary-text-color);
+      /* 変数を使わず、直接ダークグレーを指定します */
+      background-color: #1c1c1e !important; 
+      color: #ffffff !important;
       
-      border-radius: var(--ha-card-border-radius, var(--ha-border-radius-lg));
-      box-shadow: var(--ha-card-box-shadow, 0 4px 16px rgba(0, 0, 0, 0.5));
+      border-radius: 12px !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important;
       box-sizing: border-box;
-      /* 境界線を少し明るくして、背景から浮かび上がらせる */
-      border: 1px solid var(--divider-color, rgba(255, 255, 255, 0.1));
+      border: 1px solid #333333 !important;
       padding: 1rem;
       height: fit-content;
       min-width: 250px;
       overflow: hidden;
-      backdrop-filter: blur(8px); /* 背景のボケを少し強めて高級感を出す */
+      backdrop-filter: blur(10px);
     }
-.tooltip ::slotted([slot='moon-header']) {
-      /* ...既存の設定... */
-      color: var(--primary-text-color) !important;
-    }
-    .tooltip ::slotted([slot='phase-name']) {
-      /* ...既存の設定... */
-      color: var(--secondary-text-color) !important;
-      opacity: 0.9;
+
+    /* 文字色も個別に白へ強制 */
+    .tooltip ::slotted(*) {
+      color: #ffffff !important;
     }
 
     .tooltip ::slotted([slot='moon-pic']) {
