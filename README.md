@@ -53,6 +53,7 @@
 | `fr`         | French                   | Français                 |
 | `id`         | Indonesian               | Bahasa Indonesia         |
 | `it`         | Italian                  | Italiano                 |
+| `ja`         | Japanese                 | 日本語                     |
 | `ko`         | Korean                   | 한국어                     |
 | `lt`         | Lithuanian               | Lietuvių                 |
 | `nl`         | Nederlands               | Dutch                    |
@@ -62,7 +63,7 @@
 | `sk`         | Slovak                   | Slovenčina               |
 | `sv`         | Swedish                  | Svenska                  |
 | `tr`         | Turkish                  | Türkçe                   |
-| `ua`         | Ukrainian                | Українська               |
+| `uk`         | Ukrainian                | Українська               |
 | `vi`         | Vietnamese               | Tiếng Việt               |
 | `zh-Hans`    | Chinese                  | 中文                      |
 
