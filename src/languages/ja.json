@@ -8,12 +8,12 @@
             "thirdQuarterMoon": "下弦の月",
             "newMoon": "新月",
             "waxingCrescentMoon": "三日月",
-            "waxingGibbousMoon": "九夜月（満ちゆく月）",
+            "waxingGibbousMoon": "九夜月",
             "waningCrescentMoon": "明けの三日月",
-            "waningGibbousMoon": "更待月（欠けゆく月）"
+            "waningGibbousMoon": "更待月"
         },
         "illumination": "輝度",
-        "illuminated": "照らされている割合",
+        "illuminated": "輝面比",
         "moonRise": "月の出",
         "moonSet": "月の入り",
         "moonHigh": "南中時刻",
@@ -24,12 +24,12 @@
         "fullMoon": "満月",
         "newMoon": "新月",
         "relativeTime": {
-            "days": "{0} 日",
+            "days": "日",
             "justNow": "たった今",
-            "minutesAgo": "{0} 分前",
-            "hoursAgo": "{0} 時間前",
-            "inMinutes": "{0} 分後",
-            "inHours": "{0} 時間後"
+            "minutesAgo": "分前",
+            "hoursAgo": "時間前",
+            "inMinutes": "分後",
+            "inHours": "時間後"
         },
         "position": "位置",
         "direction": "方位",
