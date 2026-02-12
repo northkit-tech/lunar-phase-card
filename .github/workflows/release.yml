@@ -11,19 +11,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Install
         run: npm install
+
       - name: Build
         run: npm run build
+
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          draft: false      # 下書き(draft)ではなく即公開にする
+          draft: false
           generate_release_notes: true
           files: |
-            dist/*.js       # ←ここを build から dist に変更！
+            build/lunar-phase-card.js
+
+      # 万が一、タグを打たずに手動(workflow_dispatch)で実行した時もファイルを救出できるようにします
+      - name: Upload Artifact for Manual Run
+        uses: actions/upload-artifact@v4
+        with:
+          name: lunar-phase-card-js-file
+          path: build/lunar-phase-card.js
