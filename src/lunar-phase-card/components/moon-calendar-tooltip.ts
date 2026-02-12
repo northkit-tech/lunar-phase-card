@@ -103,43 +103,33 @@ export class LunarMoonCalendarTooltip extends LitElement {
     .tooltip.hide {
       visibility: hidden;
     }
-    .tooltip {
+.tooltip {
       display: flex;
       flex-direction: column;
-      /* --- ここから修正 --- */
-      /* RGB変数に依存せず、直接テーマの背景色を参照するようにします */
+      /* 背景色をテーマのカード背景に合わせ、95%の不透明度を適用 */
       background-color: var(--ha-card-background, var(--card-background-color, #1c1c1c));
-      /* 少し透けさせたい場合は、以下の指定でもOKです（お好みで） */
-      /* background-color: rgba(var(--rgb-primary-background-color, 28, 28, 28), 0.95); */
+      /* 文字色をテーマの標準テキスト色に固定（白背景で文字が消えるのを防ぐ） */
+      color: var(--primary-text-color);
       
-      color: var(--primary-text-color); /* 文字色もテーマに合わせる */
-      /* --- ここまで修正 --- */
       border-radius: var(--ha-card-border-radius, var(--ha-border-radius-lg));
-      box-shadow: var(--ha-card-box-shadow, 0 2px 4px rgba(0, 0, 0, 0.2));
+      box-shadow: var(--ha-card-box-shadow, 0 4px 16px rgba(0, 0, 0, 0.5));
       box-sizing: border-box;
-      border: 1px solid rgba(var(--rgb-primary-text-color), 0.1);
+      /* 境界線を少し明るくして、背景から浮かび上がらせる */
+      border: 1px solid var(--divider-color, rgba(255, 255, 255, 0.1));
       padding: 1rem;
       height: fit-content;
-      min-width: 200px;
+      min-width: 250px;
       overflow: hidden;
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(8px); /* 背景のボケを少し強めて高級感を出す */
     }
-    .tooltip ::slotted([slot='moon-header']) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.2em;
-      padding-inline: 1em;
-      /* margin-bottom: 8px; */
-      text-align: center;
+.tooltip ::slotted([slot='moon-header']) {
+      /* ...既存の設定... */
+      color: var(--primary-text-color) !important;
     }
     .tooltip ::slotted([slot='phase-name']) {
-      font-weight: normal !important;
-      margin-top: 0.2em !important;
-      text-align: center;
-      color: var(--secondary-text-color, #666) !important;
+      /* ...既存の設定... */
+      color: var(--secondary-text-color) !important;
+      opacity: 0.9;
     }
 
     .tooltip ::slotted([slot='moon-pic']) {
