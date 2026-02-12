@@ -88,3 +88,22 @@ export const style = css`
     }
   }
 `;
+
+
+
+// 既存のコードの一番最後に追記
+export const extraStyles = css`
+  .tooltip, 
+  .tooltip.fade-in, 
+  div.tooltip {
+    background-color: var(--ha-card-background, var(--card-background-color, #1c1c1c)) !important;
+    color: var(--primary-text-color) !important;
+    border: 1px solid var(--divider-color) !important;
+    backdrop-filter: blur(5px); /* 少し透けさせるとおしゃれです */
+  }
+  
+  /* もし文字が白背景用の黒のままなら、ここも強制的に白っぽくします */
+  .tooltip * {
+    color: var(--primary-text-color) !important;
+  }
+`;
