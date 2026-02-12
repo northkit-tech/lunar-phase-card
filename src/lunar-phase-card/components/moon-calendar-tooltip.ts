@@ -106,7 +106,14 @@ export class LunarMoonCalendarTooltip extends LitElement {
     .tooltip {
       display: flex;
       flex-direction: column;
-      background-color: rgba(var(--rgb-card-background-color), 0.95);
+      /* --- ここから修正 --- */
+      /* RGB変数に依存せず、直接テーマの背景色を参照するようにします */
+      background-color: var(--ha-card-background, var(--card-background-color, #1c1c1c));
+      /* 少し透けさせたい場合は、以下の指定でもOKです（お好みで） */
+      /* background-color: rgba(var(--rgb-primary-background-color, 28, 28, 28), 0.95); */
+      
+      color: var(--primary-text-color); /* 文字色もテーマに合わせる */
+      /* --- ここまで修正 --- */
       border-radius: var(--ha-card-border-radius, var(--ha-border-radius-lg));
       box-shadow: var(--ha-card-box-shadow, 0 2px 4px rgba(0, 0, 0, 0.2));
       box-sizing: border-box;
