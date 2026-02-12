@@ -1,3 +1,11 @@
+<a id="v1.14.4-ja"></a>
+# [v1.14.4-ja](https://github.com/northkit-tech/lunar-phase-card/releases/tag/v1.14.4-ja) - 2026-02-12
+
+
+
+[Changes][v1.14.4-ja]
+
+
 <a id="1.14.3"></a>
 # [v1.14.3-ja](https://github.com/northkit-tech/lunar-phase-card/releases/tag/1.14.3) - 2026-02-12
 
@@ -18,6 +26,7 @@
 [Changes][v1.14.2-ja]
 
 
+[v1.14.4-ja]: https://github.com/northkit-tech/lunar-phase-card/compare/1.14.3...v1.14.4-ja
 [1.14.3]: https://github.com/northkit-tech/lunar-phase-card/compare/v1.14.2-ja...1.14.3
 [v1.14.2-ja]: https://github.com/northkit-tech/lunar-phase-card/tree/v1.14.2-ja
 
