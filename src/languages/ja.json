@@ -1,178 +1,178 @@
 {
-	"name": "Japanese",
-	"nativeName": "日本語",
-	"card": {
-		"phase": {
-			"firstQuarterMoon": "上弦の月",
-			"fullMoon": "満月",
-			"thirdQuarterMoon": "下弦の月",
-			"newMoon": "新月",
-			"waxingCrescentMoon": "三日月",
-			"waxingGibbousMoon": "九夜月（満ちゆく月）",
-			"waningCrescentMoon": "明けの三日月",
-			"waningGibbousMoon": "更待月（欠けゆく月）"
-		},
-		"illumination": "輝度",
-		"illuminated": "照らされている割合",
-		"moonRise": "月の出",
-		"moonSet": "月の入り",
-		"moonHigh": "南中時刻",
-		"moonAge": "月齢",
-		"distance": "距離",
-		"azimuth": "方位角",
-		"altitude": "高度",
-		"fullMoon": "満月",
-		"newMoon": "新月",
-		"relativeTime": {
-			"days": "{0} 日",
-			"justNow": "たった今",
-			"minutesAgo": "{0} 分前",
-			"hoursAgo": "{0} 時間前",
-			"inMinutes": "{0} 分後",
-			"inHours": "{0} 時間後"
-		},
-		"position": "位置",
-		"direction": "方位",
-		"nextPhase": "次の月相",
-		"cardinalShort": {
-			"N": "北",
-			"NNE": "北北東",
-			"NE": "北東",
-			"ENE": "東北東",
-			"E": "東",
-			"ESE": "東南東",
-			"SE": "南東",
-			"SSE": "南南東",
-			"S": "南",
-			"SSW": "南南西",
-			"SW": "南西",
-			"WSW": "西南西",
-			"W": "西",
-			"WNW": "西北西",
-			"NW": "北西",
-			"NNW": "北北西"
-		},
-		"underHorizon": "地平線下",
-		"overHorizon": "地平線上",
-		"horizonTitle": "今日の月軌道",
-		"currentTime": "現在時刻",
-		"common": {
-			"now": "現在"
-		}
-	},
-	"editor": {
-		"viewConfig": {
-			"title": "表示設定",
-			"description": "言語と背景の設定",
-			"customBackground": {
-				"title": "背景",
-				"description": "カスタム背景の設定"
-			},
-			"theme": {
-				"title": "テーマ (オプション)",
-				"description": "カードのテーマを選択"
-			},
-			"layout": {
-				"title": "レイアウト",
-				"description": "カードのレイアウト変更"
-			}
-		},
-		"baseConfig": {
-			"title": "位置情報",
-			"description": "緯度と経度の設定"
-		},
-		"optionsConfig": {
-			"useDefault": "システム設定を使用",
-			"useEntity": "エンティティ設定を使用",
-			"useCustom": "カスタム設定を使用"
-		},
-		"fontOptions": {
-			"title": "フォント設定",
-			"description": "サイズと色のカスタマイズ",
-			"hideLabel": "ラベルを隠す",
-			"headerFontConfig": {
-				"title": "ヘッダーフォント",
-				"description": "ヘッダーの設定"
-			},
-			"labelFontConfig": {
-				"title": "ラベルフォント",
-				"description": "ラベルの設定"
-			},
-			"headerFontSize": "ヘッダーサイズ",
-			"headerFontColor": "ヘッダーの色",
-			"headerFontStyle": "ヘッダースタイル",
-			"labelFontSize": "ラベルサイズ",
-			"labelFontColor": "ラベルの色",
-			"labelFontStyle": "ラベルスタイル",
-			"valueFontSize": "値のサイズ"
-		},
-		"graphConfig": {
-			"title": "グラフ設定",
-			"description": "グラフの表示設定",
-			"type": {
-				"title": "種類",
-				"description": "グラフタイプを選択"
-			},
-			"visibility": {
-				"title": "表示オプション",
-				"description": "表示項目の切り替え"
-			},
-			"customization": {
-				"title": "カスタマイズ",
-				"description": "グラフの調整"
-			}
-		},
-		"layoutConfig": {
-			"title": "レイアウト設定",
-			"description": "表示・非表示の切り替え",
-			"hiddenItems": {
-				"title": "非表示にする項目",
-				"description": "表示させないデータを選択"
-			}
-		},
-		"compactView": "コンパクトビュー",
-		"showBackground": "背景を表示",
-		"timeFormat": "12時間表記",
-		"mileUnit": "マイル単位 (オフでkm)",
-		"yTicks": "Y軸目盛り",
-		"xTicks": "X軸目盛り",
-		"showTime": "月の出/入りマーカー",
-		"showCurrent": "現在の月の位置",
-		"showLegend": "凡例を表示",
-		"showHighest": "最高高度を表示",
-		"calendarModal": "カレンダー表示",
-		"hideButtons": "ヘッダーボタンを隠す",
-		"titleHelper": {
-			"compactView": "最小限の表示にします",
-			"showBackground": "背景画像を表示します",
-			"timeFormat": "12時間/24時間表記を切り替えます",
-			"mileUnit": "オフの場合はキロメートルを使用します",
-			"yTicks": "Y軸の目盛りを表示します",
-			"xTicks": "X軸の目盛りを表示します",
-			"showTime": "出/入りの位置をグラフに表示します",
-			"showCurrent": "現在の位置をグラフに表示します",
-			"showLegend": "凡例を表示します",
-			"showHighest": "最高到達点を表示します",
-			"calendarModal": "クリックでカレンダーをポップアップします",
-			"hideButtons": "上部のボタンを消します",
-			"useDefault": "システムの座標を使用します",
-			"useEntity": "エンティティの座標を使用します",
-			"useCustom": "手動で座標を入力します",
-			"hideLabel": "ラベルを隠して値を強調します"
-		},
-		"placeHolder": {
-			"latitude": "緯度を入力",
-			"longitude": "経度を入力",
-			"customBackground": "URLまたはパス",
-			"language": "言語を選択",
-			"moonPosition": "月の表示位置",
-			"defaultCard": "初期表示カード",
-			"yTicksPosition": "Y軸目盛り位置",
-			"legendPosition": "凡例の位置",
-			"legendAlign": "凡例の配置",
-			"graphType": "グラフの種類",
-			"compactMode": "コンパクトモード",
-			"themeMode": "テーマモード"
-		}
-	}
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "card": {
+        "phase": {
+            "firstQuarterMoon": "上弦の月",
+            "fullMoon": "満月",
+            "thirdQuarterMoon": "下弦の月",
+            "newMoon": "新月",
+            "waxingCrescentMoon": "三日月",
+            "waxingGibbousMoon": "九夜月（満ちゆく月）",
+            "waningCrescentMoon": "明けの三日月",
+            "waningGibbousMoon": "更待月（欠けゆく月）"
+        },
+        "illumination": "輝度",
+        "illuminated": "照らされている割合",
+        "moonRise": "月の出",
+        "moonSet": "月の入り",
+        "moonHigh": "南中時刻",
+        "moonAge": "月齢",
+        "distance": "距離",
+        "azimuth": "方位角",
+        "altitude": "高度",
+        "fullMoon": "満月",
+        "newMoon": "新月",
+        "relativeTime": {
+            "days": "{0} 日",
+            "justNow": "たった今",
+            "minutesAgo": "{0} 分前",
+            "hoursAgo": "{0} 時間前",
+            "inMinutes": "{0} 分後",
+            "inHours": "{0} 時間後"
+        },
+        "position": "位置",
+        "direction": "方位",
+        "nextPhase": "次の月相",
+        "cardinalShort": {
+            "N": "北",
+            "NNE": "北北東",
+            "NE": "北東",
+            "ENE": "東北東",
+            "E": "東",
+            "ESE": "東南東",
+            "SE": "南東",
+            "SSE": "南南東",
+            "S": "南",
+            "SSW": "南南西",
+            "SW": "南西",
+            "WSW": "西南西",
+            "W": "西",
+            "WNW": "西北西",
+            "NW": "北西",
+            "NNW": "北北西"
+        },
+        "underHorizon": "地平線下",
+        "overHorizon": "地平線上",
+        "horizonTitle": "今日の月軌道",
+        "currentTime": "現在時刻",
+        "common": {
+            "now": "現在"
+        }
+    },
+    "editor": {
+        "viewConfig": {
+            "title": "表示設定",
+            "description": "言語と背景の設定",
+            "customBackground": {
+                "title": "背景",
+                "description": "カスタム背景の設定"
+            },
+            "theme": {
+                "title": "テーマ (オプション)",
+                "description": "カードのテーマを選択"
+            },
+            "layout": {
+                "title": "レイアウト",
+                "description": "カードのレイアウト変更"
+            }
+        },
+        "baseConfig": {
+            "title": "位置情報",
+            "description": "緯度と経度の設定"
+        },
+        "optionsConfig": {
+            "useDefault": "システム設定を使用",
+            "useEntity": "エンティティ設定を使用",
+            "useCustom": "カスタム設定を使用"
+        },
+        "fontOptions": {
+            "title": "フォント設定",
+            "description": "サイズと色のカスタマイズ",
+            "hideLabel": "ラベルを隠す",
+            "headerFontConfig": {
+                "title": "ヘッダーフォント",
+                "description": "ヘッダーの設定"
+            },
+            "labelFontConfig": {
+                "title": "ラベルフォント",
+                "description": "ラベルの設定"
+            },
+            "headerFontSize": "ヘッダーサイズ",
+            "headerFontColor": "ヘッダーの色",
+            "headerFontStyle": "ヘッダースタイル",
+            "labelFontSize": "ラベルサイズ",
+            "labelFontColor": "ラベルの色",
+            "labelFontStyle": "ラベルスタイル",
+            "valueFontSize": "値のサイズ"
+        },
+        "graphConfig": {
+            "title": "グラフ設定",
+            "description": "グラフの表示設定",
+            "type": {
+                "title": "種類",
+                "description": "グラフタイプを選択"
+            },
+            "visibility": {
+                "title": "表示オプション",
+                "description": "表示項目の切り替え"
+            },
+            "customization": {
+                "title": "カスタマイズ",
+                "description": "グラフの調整"
+            }
+        },
+        "layoutConfig": {
+            "title": "レイアウト設定",
+            "description": "表示・非表示の切り替え",
+            "hiddenItems": {
+                "title": "非表示にする項目",
+                "description": "表示させないデータを選択"
+            }
+        },
+        "compactView": "コンパクトビュー",
+        "showBackground": "背景を表示",
+        "timeFormat": "12時間表記",
+        "mileUnit": "マイル単位 (オフでkm)",
+        "yTicks": "Y軸目盛り",
+        "xTicks": "X軸目盛り",
+        "showTime": "月の出/入りマーカー",
+        "showCurrent": "現在の月の位置",
+        "showLegend": "凡例を表示",
+        "showHighest": "最高高度を表示",
+        "calendarModal": "カレンダー表示",
+        "hideButtons": "ヘッダーボタンを隠す",
+        "titleHelper": {
+            "compactView": "最小限の表示にします",
+            "showBackground": "背景画像を表示します",
+            "timeFormat": "12時間/24時間表記を切り替えます",
+            "mileUnit": "オフの場合はキロメートルを使用します",
+            "yTicks": "Y軸の目盛りを表示します",
+            "xTicks": "X軸の目盛りを表示します",
+            "showTime": "出/入りの位置をグラフに表示します",
+            "showCurrent": "現在の位置をグラフに表示します",
+            "showLegend": "凡例を表示します",
+            "showHighest": "最高到達点を表示します",
+            "calendarModal": "クリックでカレンダーをポップアップします",
+            "hideButtons": "上部のボタンを消します",
+            "useDefault": "システムの座標を使用します",
+            "useEntity": "エンティティの座標を使用します",
+            "useCustom": "手動で座標を入力します",
+            "hideLabel": "ラベルを隠して値を強調します"
+        },
+        "placeHolder": {
+            "latitude": "緯度を入力",
+            "longitude": "経度を入力",
+            "customBackground": "URLまたはパス",
+            "language": "言語を選択",
+            "moonPosition": "月の表示位置",
+            "defaultCard": "初期表示カード",
+            "yTicksPosition": "Y軸目盛り位置",
+            "legendPosition": "凡例の位置",
+            "legendAlign": "凡例の配置",
+            "graphType": "グラフの種類",
+            "compactMode": "コンパクトモード",
+            "themeMode": "テーマモード"
+        }
+    }
 }
