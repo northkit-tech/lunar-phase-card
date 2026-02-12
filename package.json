@@ -1,6 +1,6 @@
 {
   "name": "lunar-phase-card",
-  "version": "1.14.4",
+  "version": "1.14.5",
   "description": "Lovelace custom card for tracking Moon phases",
   "keywords": [
     "home-assistant",
