@@ -509,3 +509,8 @@ ha-selector#vic-boolean-selector {
 .click-shrink:active {
 	transform: scale(0.9);
 }
+
+.tooltip.fade-in {
+  background-color: var(--ha-card-background, var(--card-background-color, #1c1c1c)) !important;
+  color: var(--primary-text-color) !important;
+}
