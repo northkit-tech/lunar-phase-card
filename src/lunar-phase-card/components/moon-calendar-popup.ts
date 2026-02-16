@@ -305,7 +305,7 @@ export class LunarMoonCalendarPopup extends LunarBaseCard {
           display: flex;
           align-items: center;
           justify-content: center;
-          margin: -10px auto 0 auto;
+          margin: -7px auto 0 auto;
           padding: 0;
         }
         :host([south]) .calendar-day:not([new-full-moon]) span.day-symbol {
